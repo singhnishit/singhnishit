@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nishit Singh</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
-      background: #0e0e0e;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      font-family: sans-serif;
+      background: #eeeeee;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #eeeeee; 
+      overflow: hidden;
     }
 
-    .container {
-      width: 100%;
-      max-width: 900px;
-      padding: 40px 20px;
-    }
-
-    iframe {
-      width: 100%;
+    .pdf {
+      width: 100vw;
       height: 100vh;
       border: none;
-      border-radius: 8px;
-      box-shadow: 0 0 40px rgba(0,0,0,0.4);
+      display: block;
     }
-
-    /* mobile tweaks */
-    @media (max-width: 600px) {
-      .container {
-        padding: 10px;
-      }
-    }
+  </style>
+</head>
+<body>
+  <embed src="home.pdf" type="application/pdf" class="pdf">
+</body>
+</html>    }
   </style>
 </head>
 
