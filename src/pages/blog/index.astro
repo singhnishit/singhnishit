@@ -19,6 +19,12 @@ function formatLatest(dateStr: string) {
     const d = new Date(dateStr);
     return `latest entry in ${d.toLocaleString('en-US', { month: 'short' }).toLowerCase()} ${d.getFullYear()}`;
 }
+
+const resolveImage = (path) => {
+    if (path.startsWith('http')) return path;
+    let cleanPath = path.replace(/^\/?public\//, '').replace(/^\//, '').replace(/\/$/, '');
+    return import.meta.env.BASE_URL + cleanPath;
+};
 ---
 <Layout
     title="blog"
@@ -94,13 +100,13 @@ function formatLatest(dateStr: string) {
 
     <!-- Full post list -->
     <section class="list-section">
-        <h2>(mostly)complete<sup></sup> list of things i've done/written</h2>
+        <h2>complete<sup>**</sup> list of things i've done/written</h2>
 
         {allPosts.length > 0 ? allPosts.map((post) => (
             <div class="list-item">
                 <div class="item-image">
                     {post.data.thumbnail
-                        ? <img src={post.data.thumbnail} alt={post.data.title} />
+                        ? <img src={resolveImage(post.data.thumbnail)} alt={post.data.title} />
                         : <img src="https://via.placeholder.com/160x100/e0e0e0/888888?text=Thumbnail" alt="Blog thumbnail" />
                     }
                 </div>
