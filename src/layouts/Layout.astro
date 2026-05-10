@@ -1,0 +1,34 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  pageTitle?: string;
+}
+const { title, subtitle, pageTitle } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{pageTitle ?? title} — Nishit Singh</title>
+    <link rel="stylesheet" href={import.meta.env.BASE_URL + "style.css"}>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="header-left">
+                <h1>{title}{subtitle && <span class="pronouns"> {subtitle}</span>}</h1>
+            </div>
+            <div class="header-right">
+                <a href={import.meta.env.BASE_URL}>home</a> / <a href="#">cv</a> / <a href="#">github</a>
+            </div>
+        </header>
+
+        <div class="container">
+            <slot />
+        </div>
+    </div>
+</body>
+</html>
