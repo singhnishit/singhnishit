@@ -132,7 +132,7 @@ const resolveImage = (path) => {
     </section>
 
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("astro:page-load", () => {
             const refs = document.querySelectorAll("sup a[data-footnote-ref]");
             let sidenoteCount = 0;
             refs.forEach(ref => {

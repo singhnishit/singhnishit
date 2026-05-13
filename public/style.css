@@ -188,12 +188,12 @@ a {
 
 .bojack {
     position: absolute;
-    top: -120px;
+    top: -85px;
     right: 180px;
-    width: 57px;
-    height: 121px;
+    width: 40px;
+    height: auto;
     aspect-ratio: 49/104;
-
+    pointer-events: none;
 }
 
 .image-placeholder img {
