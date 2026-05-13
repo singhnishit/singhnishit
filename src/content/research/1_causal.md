@@ -4,5 +4,5 @@ authors: "Nishit Singh"
 venue: "ICLR 2026 (Accepted at the workshop for Logical Reasoning of LLMs)"
 link: "https://openreview.net/forum?id=ri50A8OkFw"
 linkLabel: "openreview"
-thumbnail: "public/assets/Screenshot-2026-05-10-at-3.52.18-AM.png"
+thumbnail: "public/assets/Screenshot-2026-05-10-at-3.52.18 AM.png"
 ---
