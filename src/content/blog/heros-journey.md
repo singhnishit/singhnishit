@@ -38,6 +38,6 @@ Recently, I've been pulled into media which discusses language. Call it an adole
 
 [^1]: [1] Linguistic relativity (or the Sapir-Whorf hypothesis) asserts that language influences worldview or cognition. 
 
-[^2]: [2] And unnlearning. We are all brain surgeons for machine learning models. Ablate this, sweep that, prune this...
+[^2]: [2] And unnlearning.
 
-[^3]:[3] If you have seen the film/read the book, a fun thought experiment could be figuring out how you would establish a word as abstract as "knowledge" or "be" with an alien, if you were in Dr. Grace's postion. "Rocky sad. Statement.", "How rocky know what sad is?"
+[^3]:[3] If you have seen the film/read the book, a fun thought experiment could be figuring out how you would establish a word as abstract as "knowledge" or "be" with an alien, if you were in Dr. Grace's postion.
