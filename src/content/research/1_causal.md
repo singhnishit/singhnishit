@@ -3,6 +3,6 @@ title: "Causal Evidence of Stack Representations in Modeling Counter Languages U
 authors: "Nishit Singh"
 venue: "ICLR 2026 (Accepted at the Logical Reasoning of LLMs workshop)"
 link: "https://openreview.net/forum?id=ri50A8OkFw"
-linkLabel: "openreview / [arxiv](https://arxiv.org/abs/2606.03398)"
+linkLabel: "openreview"
 thumbnail: "public/assets/Screenshot-2026-05-10-at-3.52.18 AM.png"
 ---
