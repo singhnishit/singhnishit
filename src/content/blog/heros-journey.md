@@ -4,9 +4,9 @@ date: "Last updated in March 2026"
 readTime: "2 min"
 pinned: true
 teaser: "got"
-thumbnail: "public/assets/Screenshot 2026-05-10 at 6.02.20 AM.png"
+thumbnail: "public/assets/chart-2.png"
 ---
-Recently, I've been pulled into media which discusses language. Call it an adolescent infatuation with Sapir-Whorf[^1] and so on and so on. Have been conducting a lot of solo work on language models, the science of learning[^2], and watching the different ways knowledge is quantified in different languages is super fun. Achebe's book was a once in a lifetime first read, and I am quite sad that I chewed through it in one fell swoop in an airplane. Something tells me it will be a once in a lifetime second read as well.
+Recently, I've been pulled into media which discusses language; call it an adolescent infatuation with Sapir-Whorf[^1]. Have been conducting a lot of solo work on language models, the science of learning[^2], and watching the different ways knowledge is quantified in different languages is super fun. Achebe's book was a once in a lifetime first read, and I am quite sad that I chewed through it in one fell swoop in an airplane. I love the book because they never talk about time in hours or minutes; those concepts don't exist in the tribe - time is measured in moons, or rains, or market weeks. The Igbo idioms provide such stark contrast to idioms in Hindi or English. What a wonderful book. Something tells me it will be a once in a lifetime second read as well.
 
 -project hail mary, andy weir/chris miller/phil lord [^3]
 
